@@ -1,0 +1,14 @@
+<ul>
+    {{#each this}}
+        <li class="item">
+            <img
+                src="{{poster_path}}"
+                alt="{{original_title}}"
+                class="poster__path"/>
+        </li>
+        <h2 class="title-card-film">{{original_title}}</h2>
+        {{#each genre_ids}}
+            <p>{{id}}</p>
+        {{/each}}
+    {{/each}}
+</ul>
