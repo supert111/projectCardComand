@@ -1,0 +1,145 @@
+.list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px auto;
+  }
+  .modal-card{
+    position: relative;
+    margin: auto;
+    width: 280px;
+    height: 958px;
+    padding: 48px 20px 41px;
+  }
+  .poster__path {
+    display: block;
+    width: 240px;
+    height: 356.57px;
+    border-radius: 5px;
+    margin: 0 0 30px;
+  }
+  .title__card__film {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1,15;
+  margin: 0 0 20px;
+  color: #000000;
+  }
+  
+  .block__movie__information{
+    padding: 0;
+    bottom: 0;
+  }
+  
+  .card__inform{
+    margin: 0 0 10px;
+  }
+  .card__inform:last-child{
+    margin: 0;
+  }
+  
+  .movie__information{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1,33;
+    color: #8C8C8C;
+  }
+  
+  .vote{
+    width: 36px;
+    height: 16px;
+    margin-left: 41px;
+  
+    background: #FF6B01;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 1,17;
+    color: #FFFFFF;
+  }
+  
+  .votes{
+    width: 36px;
+    height: 16px;
+    
+    background: #F7F7F7;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 1,17;
+  }
+  
+  .popularity{
+    margin-left: 53px;
+  }
+  
+  .title__movie__inform{
+    margin-left: 39px;
+  }
+  
+  .genre__iform{
+    margin-left: 76px;
+  }
+  
+  .description__wrapper__card{
+    margin: 20px 0;
+  }
+  
+  .title__description__card{
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1,33px;
+    margin: 0 0 10px;
+  }
+  /* посмотреть или надо после базовых стилей */
+  .description__card{
+    margin: 0;
+  }
+  
+  .wrapper__button__card{
+    display: flex;
+  }
+  
+  
+  .button{
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    width: 112.58px;
+    height: 44px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 1,33px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  .button.accent{
+    color: #FFFFFF;
+    background: #FF6B01;
+    border: 0;
+    margin: 0 15px 0 0;
+  }
+  
+  .icon__close{
+    width: 14px;
+    height: 14px;
+  }
+  .close-film-card{
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 0;
+  }
